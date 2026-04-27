@@ -73,6 +73,32 @@ body {
 
 
 
+.img-grid.centered {
+  grid-template-columns: repeat(3, minmax(180px, 280px));
+  justify-content: center;
+}
+
+/* Tablet */
+@media (max-width: 600px) {
+  .img-grid.centered {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  .img-grid.centered {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
 .img-card {
   background: #ede8df;
   border-radius: 12px;

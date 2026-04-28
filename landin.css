@@ -37,6 +37,18 @@ font-size: 100px;
 /* Reset and Base Styles */
 
 
+
+
+/* smooth scrolling */
+html,body{
+    scroll-behavior:smooth;
+    scroll-padding-top:100px;
+}
+
+
+
+
+
 /* Contact Section Layout */
 .contact-content {
     display: flex;

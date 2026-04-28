@@ -40,10 +40,6 @@ font-size: 100px;
 
 
 /* smooth scrolling */
-html,body{
-    scroll-behavior:smooth;
-    scroll-padding-top:100px;
-}
 
 
 
@@ -112,6 +108,11 @@ body {
     line-height: 1.6;
     color: var(--text-dark);
     overflow-x: hidden;
+}
+
+html,body{
+    scroll-behavior:smooth;
+    scroll-padding-top:100px;
 }
 
 .container {
